@@ -1,3 +1,7 @@
-include<iostream> int mean()
+#include <iostream>
+using namespace std;
+int main()
 {
-    count
+    cout << "Hare kreshna HARE RAM";
+    return 0;
+}
