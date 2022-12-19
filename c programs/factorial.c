@@ -11,5 +11,6 @@ int main()
         i++;
     }
     printf("the factorial of the input number is%d", f);
+
     return 0;
 }
