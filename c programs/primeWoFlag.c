@@ -3,7 +3,6 @@ int main()
 {
 
     int n;
-    _Bool flag = 0;
     printf("Enter the numer :");
     scanf("%d", &n);
     for (int i = 2; i * i <= n; i++)
@@ -11,17 +10,12 @@ int main()
 
         if (n % i == 0)
         {
-            flag = 1;
+            printf("it is not prime\n");
             break;
         }
     }
-    if (flag == 0)
-    {
-        printf("it is prime");
-    }
-    if (flag == 1)
-    {
-        printf("it is not prime");
-    }
+
+    printf("it is prime\n");
+
     return 0;
 }

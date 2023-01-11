@@ -7,8 +7,9 @@ int main()
         for (int j = 1; j <= 10; j++)
         {
             k = i * j;
-            printf("%d\t", k);
+            printf("%d ", k);
         }
+        printf("\n");
     }
 
     return 0;
