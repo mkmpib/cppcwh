@@ -1,15 +1,15 @@
 #include <stdio.h>
 int main()
 {
-    for (int i = 1; i <= 5; i++)
+    for (int i = 3; i <= 23; i++)
     {
-        for (int j = 1; j <= i; j++)
-        {
-
-            printf("%d", j);
-        }
-        printf("\n");
+        printf("%d\t", i);
     }
-
+    printf("The square of number is:");
+    for (int i = 3; i <= 23; i++)
+    {
+        int sq = i * i;
+        printf("%d\t", sq);
+    }
     return 0;
 }
