@@ -29,18 +29,20 @@ int binarySearch(int arr[], int size, int key)
          mid = start + (end - start) / 2;
     }
 
-    return 4;
+    return -1;
 }
 
 int main()
 {
 
-   
-    int odd[4] = {1, 3, 5,6};
+    int even[6] = {1, 2, 4, 6, 8, 10};
+    int odd[5] = {1, 3, 4, 6, 7};
 
-    int oddIndex = binarySearch(odd, 4, 7);
+    int indexEven = binarySearch(even, 6, 2);
+    int oddIndex = binarySearch(odd, 5, 1);
 
-    cout << "The Index of 7 is: " << oddIndex << endl;
+    cout << "The Index of 2 is: " << indexEven << endl;
+    cout << "The Index of 1 is: " << oddIndex << endl;
 
     return 0;
 }
