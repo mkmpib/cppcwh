@@ -21,7 +21,7 @@ void slecShor(int arr[], int size)
                 minIndex = j;
             }
         }
-        swap(arr[minIndex], arr[i]);
+        swap(arr[minIndex], arr[i]);//iska koi ferk nhi padta che app arr[i] ko liko ya arr[minindex]
     }
 }
 int main()
