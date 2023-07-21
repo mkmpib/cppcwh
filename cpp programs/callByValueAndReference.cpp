@@ -8,11 +8,11 @@ void swap(int a,int b){ //Not Output
     b=temp;
 } 
 // Call by Pointer:----
-void swapPointer(int*a,int*b){
-    int temp=*a;
-      *a=*b;
-      *b=temp;
-}
+//void swapPointer(int*a,int*b){
+  //  int temp=*a;
+    //  *a=*b;
+      //*b=temp;
+//}
 // Call by Referance variable:---
 void swapReferencevar(int&a,int&b){
     int temp=a;
